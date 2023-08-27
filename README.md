@@ -29,4 +29,4 @@ Feel free to explore the code and adapt it to your specific needs!
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](license.MD).
