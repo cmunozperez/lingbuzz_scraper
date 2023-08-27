@@ -28,7 +28,7 @@ The scraper returns the data in the form of a Pandas DataFrame with the followin
 
 This DataFrame will have as many rows as the number of papers that were scraped.
 
-A sample CSV file containing information for manuscript IDs ranging from `002` to `007537` as of August 23, 2023, is available for download [here](https://github.com/cmunozperez/lingbuzz_scraper/blob/master/lingbuzz%20Aug_23_2023/lingbuzz_002_007537.csv).
+A sample CSV file containing all manuscript information in lingbuzz as of August 23 2023 (IDs ranging from `002` to `007537`) is available for download [here](https://github.com/cmunozperez/lingbuzz_scraper/blob/master/lingbuzz%20Aug_23_2023/lingbuzz_002_007537.csv).
 
 ## Usage
 
