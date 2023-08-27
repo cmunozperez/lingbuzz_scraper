@@ -15,7 +15,7 @@ This is a script designed to scrape data from lingbuzz.net, a linguistic preprin
 
 ## Sample Data
 
-- A sample CSV file containing information for manuscript IDs ranging from `002` to `007537` as of August 23, 2023, is available for download here.
+- A sample CSV file containing information for manuscript IDs ranging from `002` to `007537` as of August 23, 2023, is available for download [here](https://github.com/cmunozperez/lingbuzz_scraper/blob/master/lingbuzz%20Aug_23_2023/lingbuzz_002_007537.csv).
 
 ## Usage
 
