@@ -13,9 +13,22 @@ This is a script designed to scrape data from [lingbuzz.net](https://ling.auf.ne
 
 - **Processing Time:** Depending on the availability and quality of the free proxies at any given time, the scraping process may vary in speed. Keep this in mind when using the script, as the overall processing time could be longer due to the proxy limitations.
 
-## Sample Data
+## Scraped Data Format
 
-- A sample CSV file containing information for manuscript IDs ranging from `002` to `007537` as of August 23, 2023, is available for download [here](https://github.com/cmunozperez/lingbuzz_scraper/blob/master/lingbuzz%20Aug_23_2023/lingbuzz_002_007537.csv).
+The scraper returns the data in the form of a Pandas DataFrame with the following columns:
+
+- *Id*: the ID number corresponding to the manuscript
+- *Title*: the title of the manuscript
+- *Authors*: authors of the paper, separated by commas
+- *Keywords*: keywords provided for the manuscript
+- *Published_in*: place of publication
+- *Date*: date of upload
+- *Downloads*: download count for the manuscript
+- *Abstract*: the abstract
+
+This DataFrame will have as many rows as the number of papers that were scraped.
+
+A sample CSV file containing information for manuscript IDs ranging from `002` to `007537` as of August 23, 2023, is available for download [here](https://github.com/cmunozperez/lingbuzz_scraper/blob/master/lingbuzz%20Aug_23_2023/lingbuzz_002_007537.csv).
 
 ## Usage
 
