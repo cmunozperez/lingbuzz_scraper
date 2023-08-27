@@ -9,7 +9,7 @@ This is a script designed to scrape data from [lingbuzz.net](https://ling.auf.ne
 
 - **Manuscript ID Range:** Manuscripts on Lingbuzz are assigned unique ID numbers (e.g., `lingbuzz/001865`). The scraper operates by specifying a range between two of these IDs. For instance, if you provide the IDs `001865` and `002865`, the scraper will gather data for all manuscripts falling within this ID range.
 
-- **Automatic Proxy Handling:** The scraper automatically retrieves free proxies and utilizes them to connect to `lingbuzz.net`. The usage of proxies helps distribute the load and prevents overloading the server.
+- **Automatic Proxy Handling:** The scraper automatically retrieves free proxies, checks them and uses them to connect to `lingbuzz.net`. Free proxies are slow; their usage is meant to help distribute the load and prevent overloading the server.
 
 - **Processing Time:** Depending on the availability and quality of the free proxies at any given time, the scraping process may vary in speed. Keep this in mind when using the script, as the overall processing time could be longer due to the proxy limitations.
 
